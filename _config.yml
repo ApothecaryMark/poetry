@@ -42,6 +42,7 @@ prose:
     - index.html
     - sitemap.xml
     - robots.txt
+    - 404.html
     # REMOVE THIS LINE TO EDIT THE CONFIG
     - _config.yml
 
