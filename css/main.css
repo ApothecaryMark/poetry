@@ -151,7 +151,8 @@ footer {
   
   .container {
     padding: 20px;
-    margin-top: 20px;
+    width: 90%;
+    margin: 20px auto;
   }
   
   .container:before, .container:after {
