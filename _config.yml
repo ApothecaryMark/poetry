@@ -9,6 +9,7 @@ markdown: kramdown
 permalink: pretty
 highlighter: pygments
 paginate: 3
+excerpt_separator: <!--more-->
 plugins:
   - jekyll-sitemap
 
@@ -39,6 +40,8 @@ prose:
     - feed.xml
     - LICENSE
     - index.html
+    - sitemap.xml
+    - robots.txt
     # REMOVE THIS LINE TO EDIT THE CONFIG
     - _config.yml
 
@@ -54,4 +57,3 @@ links:
   #  url: /feed.xml
   - title: "blog"
     url: "/"
-  
