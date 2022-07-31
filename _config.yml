@@ -44,5 +44,7 @@ links:
   #  url: http://twitter.com/alixedi
   # - title: "git"
   #  url: http://github.com/alixedi
-  - title: "rss"
-    url: /feed.xml
+  # - title: "rss"
+  #  url: /feed.xml
+  - title: "blog"
+    url: site.baseurl
