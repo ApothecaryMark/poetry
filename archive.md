@@ -15,7 +15,7 @@ published: true
             {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
             {% if year != nyear %}
             {% if forloop.index != 1 %}{% endif %}
-                <h2>{{ post.date | date: '%Y' }}</h2>
+                <br/><h2>{{ post.date | date: '%Y' }}</h2>
             {% endif %}
         {% endunless %}
 
@@ -23,7 +23,7 @@ published: true
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
     {% if month != nmonth %}
     {% if forloop.index != 1 %}{% endif %}
-        <h2>{{ post.date | date: '%B %Y' }}</h2>
+        <br/><h2>{{ post.date | date: '%B %Y' }}</h2>
     {% endif %}
 
 
