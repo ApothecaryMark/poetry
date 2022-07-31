@@ -1,7 +1,7 @@
 # Site settings
 title: "Typewriter"
 description: "So I was feeling nostalgic."
-baseurl: "/poetry/"
+baseurl: "/poetry"
 url: "http://apothecarymark.github.io/poetry"
 
 # Build settings
