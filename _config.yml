@@ -19,7 +19,6 @@ prose:
         field:
           element: "text"
           label: "title"
-      - excerpt_separator: <!--more-->
       - name: "datetime"
         field:
           element: "hidden"
@@ -55,3 +54,5 @@ links:
   #  url: /feed.xml
   - title: "blog"
     url: "/"
+    
+- excerpt_separator: <!--more-->
