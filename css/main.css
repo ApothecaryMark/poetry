@@ -2,7 +2,9 @@ body {
   font-family: 'Special Elite', 'Courier New', 'Courier', monospace;
   line-height:150%;
   margin: 80px 0px;
-  background: url("../images/bg.png")
+  /* background: url("../images/bg.png") */
+  background-color: #bdb7ba;
+  background-image: url("../images/wood.png");
 }
 
 .container {
