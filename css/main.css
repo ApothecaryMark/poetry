@@ -1,5 +1,5 @@
 body {
-  font-family: monospace;
+  font-family: 'Inconsolata', 'Courier New', 'Courier', monospace;
   line-height:150%;
   margin: 80px 0px;
   background: url("../images/bg.png")
