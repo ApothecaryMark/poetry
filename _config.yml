@@ -19,6 +19,10 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "datetime"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
       - name: "published"
         field:
           element: "checkbox"
