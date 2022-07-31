@@ -10,6 +10,30 @@ permalink: pretty
 highlighter: pygments
 paginate: 3
 
+prose:
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+  media: "images"
+  ignore:
+    - /_includes
+    - /_layouts
+    - /css
+    - /images
+    - README.md
+    - .gitignore
+    - feed.xml
+    - LICENSE
+    - index.html
+
 # Links
 links:
   - title: "about"
