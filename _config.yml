@@ -1,6 +1,6 @@
 # Site settings
-title: "Typewriter"
-description: "So I was feeling nostalgic."
+title: "Your Title Here"
+description: "A placeholder poetry blog."
 baseurl: "/poetry"
 url: "http://apothecarymark.github.io/poetry"
 
