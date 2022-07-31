@@ -47,4 +47,4 @@ links:
   # - title: "rss"
   #  url: /feed.xml
   - title: "blog"
-    url: site.baseurl
+    url: "/"
