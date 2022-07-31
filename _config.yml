@@ -33,6 +33,8 @@ prose:
     - feed.xml
     - LICENSE
     - index.html
+    # REMOVE THIS LINE TO EDIT THE CONFIG
+    - _config.yml
 
 # Links
 links:
