@@ -103,6 +103,10 @@ h3 {
   margin-bottom: 100px;
 }
 
+.site-footer {
+  font-size: 0.7rem;
+}
+
 .header > h1 {
   letter-spacing: 10px;
   margin-bottom: 10px;
