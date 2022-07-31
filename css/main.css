@@ -48,7 +48,7 @@ a:link, a:visited, a:active, a:hover {
 
 /* menu */
 .page-link {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 a.page-link:hover {
@@ -72,12 +72,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   text-transform: uppercase;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: underline;
 }
 
 h2 {
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: underline;
 }
 
