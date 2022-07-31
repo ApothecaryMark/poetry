@@ -34,6 +34,6 @@ published: true
     {% else %}
         <h3><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }} - <span class="date">{{ post.date |  date: "%e %B, %Y" }}</span></a></h3>
     {% endif %}
-  	<br/>
     {% endfor %}
+  <br/>
 </div>
