@@ -145,7 +145,16 @@ footer {
   }
   
 @media screen and (max-width: 600px) {
+  body {
+    margin-top: 40px;
+  }
+  
   .container {
     padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .container:before, .container:after {
+    display:none;
   }
 }
