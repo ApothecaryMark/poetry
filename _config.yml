@@ -19,6 +19,7 @@ prose:
         field:
           element: "text"
           label: "title"
+      - excerpt_separator: <!--more-->
       - name: "datetime"
         field:
           element: "hidden"
