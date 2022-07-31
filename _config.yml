@@ -21,7 +21,7 @@ prose:
         field:
           element: "checkbox"
           label: "Published"
-          value: false
+          value: true
   media: "images"
   ignore:
     - /_includes
