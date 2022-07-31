@@ -32,7 +32,8 @@ published: true
             <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
             <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h3>
     {% else %}
-        <h3><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }} - <span class="date">{{ post.date |  date: "%B %e, %Y" }}</span></a></h3>
+        <h3><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }} - <span class="date">{{ post.date |  date: "%e %B, %Y" }}</span></a></h3>
     {% endif %}
+  	<br/>
     {% endfor %}
 </div>
