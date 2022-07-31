@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  background: #fafaf3;
+  background: #fefcfa;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   margin: 100px auto 0;
   max-width: 100%;
@@ -28,7 +28,7 @@ body {
 }
 
 .container:before {
-  background: #fafaf3;
+  background: #fefcfa;
   box-shadow: 0 0 8px rgba(0,0,0,0.5);
   left: -5px;
   top: 4px;
@@ -36,7 +36,7 @@ body {
 }
 
 .container:after {
-  background: #fafaf3;
+  background: #fefcfa;
   box-shadow: 0 0 3px rgba(0,0,0,0.5);
   right: -3px;
   top: 1px;
