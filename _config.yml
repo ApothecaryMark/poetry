@@ -12,7 +12,7 @@ paginate: 3
 
 # Links
 links:
-  - title: "abt"
+  - title: "about"
     url: /about
   # - title: "twt"
   #  url: http://twitter.com/alixedi
