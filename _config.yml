@@ -54,5 +54,4 @@ links:
   #  url: /feed.xml
   - title: "blog"
     url: "/"
-    
-- excerpt_separator: <!--more-->
+  
