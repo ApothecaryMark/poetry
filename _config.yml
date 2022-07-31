@@ -35,6 +35,7 @@ prose:
     - /_layouts
     - /css
     - /images
+    - archive.md
     - README.md
     - .gitignore
     - feed.xml
