@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Post by Date
+title: Posts by Date
 permalink: /archive/
 sitemap: false
+published: true
 ---
-
-<div id="index">
-    {% for post in site.posts %}
+{% for post in site.posts %}
         {% unless post.next %}
             <h2>{{ post.date | date: '%Y' }}</h2>
         {% else %}
@@ -32,7 +31,5 @@ sitemap: false
             <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h3>
     {% else %}
         <h3><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}<p class="date">{{ post.date |  date: "%B %e, %Y" }}</p></a></h3>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
     {% endif %}
     {% endfor %}
-</div>
